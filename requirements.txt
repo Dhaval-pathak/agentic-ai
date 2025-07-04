@@ -4,3 +4,4 @@ pymongo
 crewai 
 requests 
 python-dotenv
+streamlit-option-menu

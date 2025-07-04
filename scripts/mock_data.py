@@ -1,10 +1,14 @@
 import pymongo
 from datetime import datetime, timedelta
 from bson import ObjectId
+import dotenv
+import os
 
-# MongoDB connection
-client = pymongo.MongoClient("mongodb://localhost:27017")
-db = client["multi_agent"]
+dotenv.load_dotenv()
+
+mongo_uri = os.getenv("MONGO_URI"),
+client = pymongo.MongoClient(mongo_uri)
+db = client[os.getenv("DB_NAME")]
 
 # Clear existing collections
 db.clients.drop()

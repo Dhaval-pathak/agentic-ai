@@ -87,7 +87,7 @@ if st.button("Submit Query", use_container_width=True):
         with st.spinner("Processing..."):
             try:
                 response = requests.post(
-                    "http://localhost:8000/query",
+                    "http://backend:8000/query",
                     json={"query": query, "agent_type": agent_type.lower()}
                 )
                 if response.status_code == 200:

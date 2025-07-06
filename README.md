@@ -117,6 +117,30 @@ The `seed` service in Docker Compose will automatically run `scripts/mock_data.p
 
 ---
 
+## Demo
+
+### 🎯 Web Dashboard Overview
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fba28d4d-697d-463f-9508-d983b39165d5" alt="Web Dashboard Overview" width="80%">
+</p>
+
+---
+
+### 🤖 Support Agent in Action
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8671952e-ee3f-439e-b446-aa955065eb91" alt="Support Agent Demo" width="80%">
+</p>
+
+---
+
+### 📊 Dashboard Agent in Action
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3099311f-7628-4be1-9fa7-8eb39ae169d6" alt="Dashboard Agent Demo" width="80%">
+</p>
+
 ## Usage
 
 ### Web Dashboard
